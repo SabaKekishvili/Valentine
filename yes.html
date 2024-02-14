@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet">
+    <title>ჩემს Poopsie Voopsie-ის</title>
+</head>
+<body>
+    <style>
+        #container{
+            display: flex;
+            flex-direction: column;
+        }
+        #container p{
+            color: red;
+        }
+    </style>
+    <header>
+        <h1>მიყვარხარ</h1>
+    </header>
+    <div id="container">
+        <video id="myVideo" controls autoplay>
+            <source src="4ad425e8-e05a-4342-827c-ebeb3be8c51f.mp4">
+        </video>
+        <p>:) :) :)</p>
+    </div>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            var video = document.getElementById('myVideo');
+            video.play();
+        });
+    </script>
+</body>
+</html>
